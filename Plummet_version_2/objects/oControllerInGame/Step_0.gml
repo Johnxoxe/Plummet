@@ -2,7 +2,7 @@
 	
 // Spawners
 scrSpawnEnemies(enemie_spawn_rate);
-scrSpawnHealth(health_spawn_rate);
+
 scrSpawnCoins(coin_spawn_rate);
 
 

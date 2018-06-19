@@ -1,8 +1,8 @@
 //window_set_fullscreen(true);
 randomize();
-//if file_exists("saveData.ini"){
-//	file_delete("saveData.ini");
-//}
+if file_exists("saveData.ini"){
+	file_delete("saveData.ini");
+}
 
 ini_open("saveData.ini");
 h_score = ini_read_real("Variables","h_score",0);

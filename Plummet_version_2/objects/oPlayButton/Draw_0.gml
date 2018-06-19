@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_self();
 draw_sprite_ext(sTitle,0,global.cgvx+(global.cgvw*.5),global.cgvy+(global.cgvh*.1),.7,.8,0,image_blend,1);
-draw_set_font(font0);
+draw_set_font(f50size);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_white);

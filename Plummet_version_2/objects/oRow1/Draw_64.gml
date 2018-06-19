@@ -1,6 +1,4 @@
 /*draw_set_color(c_red);
-draw_text(200, 50, "xscale: " +string(oRow1.image_xscale));
-
 draw_text(DisplayW, DisplayH, "0");
 draw_text(DisplayW *.15, DisplayH *.1, ".1");
 draw_text(DisplayW *.25, DisplayH *.2, ".2");
@@ -13,6 +11,8 @@ draw_text(DisplayW *.85, DisplayH *.8, ".8");
 draw_text(DisplayW *.95, DisplayH *.9, ".9");
 draw_text(200, 100, "DisplayW" +string(DisplayW));
 draw_text(200, 150, "DisplayH" +string(DisplayH));
+draw_text(200, 200, "DisplayW" +string(global.cgvh));
+draw_text(200, 250, "DisplayH" +string(global.cgvw));
 
 
 
