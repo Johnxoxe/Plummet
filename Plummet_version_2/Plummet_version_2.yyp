@@ -2072,6 +2072,44 @@
             }
         },
         {
+            "Key": "c1457440-fa8d-4232-8cb8-3ff82dd4228c",
+            "Value": {
+                "id": "a808b964-e579-419a-8216-0e9f77b56c2d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oLeaderboard\/oLeaderboard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c373382a-cad6-4246-bca3-ecee83f3bf43",
+            "Value": {
+                "id": "d5e78f66-9430-43b1-890b-9bc012e871ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrProgrsiveHardness\/scrProgrsiveHardness.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c42bd0da-1888-4848-82ae-71e49029f7cc",
             "Value": {
                 "id": "6c30a338-421e-48e0-aff2-5f181607a9af",
@@ -2202,6 +2240,25 @@
                 ],
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d0366cac-89a5-495f-a95c-61c092e45c11",
+            "Value": {
+                "id": "fe1cd663-f478-4cf7-bc11-ae8bf8b90f0b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oAchivment\/oAchivment.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2816,7 +2873,8 @@
     "script_order": [
         "2a8f31e0-2526-4a46-ad83-164b90b6a558",
         "d95060a2-b8a2-4d91-af94-4a4577d0af85",
-        "f2b1e6d8-1f9b-40d5-83c2-799dc32b2058"
+        "f2b1e6d8-1f9b-40d5-83c2-799dc32b2058",
+        "c373382a-cad6-4246-bca3-ecee83f3bf43"
     ],
     "tutorial": ""
 }

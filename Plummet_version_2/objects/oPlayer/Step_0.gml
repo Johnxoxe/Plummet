@@ -13,8 +13,22 @@ if (room != room01){
 	if (x < 0-width){ x = room_width+width }
 	else if (x > room_width+width) { x = 0 - width }
 } else if ( room = room01){
+	
+	// cap in the room
 	if ( x < width ){ x = width  }
 	else if ( x > room_width-width ){ x = room_width-width}
+	
+	// Cap the camera
+	var cap = 45;
+	if (angnew >= cap ) { angnew = cap; }
+	if (angnew <= -cap ) { angnew = -cap; }
+	
+	// tha angle formula
+	angnew = lerp(angnew, -(device_get_tilt_x() * 80), .07);
+ 
+	//change tha angle 
+	camera_set_view_angle(view_camera[0], angnew);
+	
 } else if ( room = rShop){
 	if (x < 0-width){ x = (room_width*.7)+width }
 	else if (x > (room_width*.7)+width) { x = 0 - width }

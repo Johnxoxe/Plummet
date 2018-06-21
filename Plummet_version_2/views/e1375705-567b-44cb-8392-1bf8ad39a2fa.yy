@@ -6,7 +6,9 @@
     "children": [
         "4956a6de-197a-4d96-a9fd-5d8d97f75210",
         "93811a0d-5d77-4d56-ad0b-126bd89037c4",
-        "b1cfff6f-c262-4eb1-a02e-341246eec75b"
+        "b1cfff6f-c262-4eb1-a02e-341246eec75b",
+        "c1457440-fa8d-4232-8cb8-3ff82dd4228c",
+        "d0366cac-89a5-495f-a95c-61c092e45c11"
     ],
     "filterType": "GMObject",
     "folderName": "Lobby ",

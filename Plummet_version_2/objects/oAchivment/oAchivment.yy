@@ -1,28 +1,28 @@
 {
-    "id": "93811a0d-5d77-4d56-ad0b-126bd89037c4",
+    "id": "d0366cac-89a5-495f-a95c-61c092e45c11",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSettings",
+    "name": "oAchivment",
     "eventList": [
         {
-            "id": "cef3c563-0356-4fd9-847e-94a6bd871e1f",
+            "id": "545368a9-897b-4c55-a444-90c91a71dd87",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "d0366cac-89a5-495f-a95c-61c092e45c11"
+        },
+        {
+            "id": "3edf6e51-69b6-4ffd-b2e1-1a54d37e5c2c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "93811a0d-5d77-4d56-ad0b-126bd89037c4"
-        },
-        {
-            "id": "d7fc7092-33eb-4fb8-964f-5294cd27e2ce",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "93811a0d-5d77-4d56-ad0b-126bd89037c4"
+            "m_owner": "d0366cac-89a5-495f-a95c-61c092e45c11"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "94751633-e06e-4d24-b037-35db1986de32",
+    "spriteId": "d76b1be5-e82d-4e55-9abf-921f06044296",
     "visible": true
 }
