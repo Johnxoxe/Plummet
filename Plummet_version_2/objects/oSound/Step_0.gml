@@ -1,5 +1,5 @@
 if ( oSettings.menu = 1 ){
-	y = lerp(y, 724, .1 );
+	y = lerp(y, 468, .1 );
 	image_alpha = lerp(image_alpha , 1, .2);
 } 
 

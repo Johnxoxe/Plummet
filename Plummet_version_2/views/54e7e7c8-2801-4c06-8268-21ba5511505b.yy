@@ -8,9 +8,10 @@
         "94751633-e06e-4d24-b037-35db1986de32",
         "fd27fb7d-59ed-4f88-82fb-66f6889b5027",
         "02f6c8ff-65da-43f7-b724-2cf69e95bd4f",
-        "a39b79c9-11b6-4994-ad35-31c67f364298",
         "9db4c8ff-3abe-401e-8d85-a7e75ac71514",
-        "d76b1be5-e82d-4e55-9abf-921f06044296"
+        "d76b1be5-e82d-4e55-9abf-921f06044296",
+        "ed47d74f-c666-4811-a134-83d0123b78a1",
+        "18e047b4-dd54-477b-a457-f7bace50e1a8"
     ],
     "filterType": "GMSprite",
     "folderName": "Lobby",
