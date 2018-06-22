@@ -64,3 +64,18 @@ GoogleMobileAds_MoveBanner(px, py);
 /// ---------------INTERSTITIAL ----------------- 
 GoogleMobileAds_LoadInterstitial();
 
+
+
+// --------- Loggin into to Gogle Services -------------
+
+GooglePlayServices_Init();
+
+achievement_login();
+
+
+
+
+
+
+
+
