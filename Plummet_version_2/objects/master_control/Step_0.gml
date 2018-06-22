@@ -10,6 +10,11 @@ if ( right ) { angnew++; }
 if ( left ) { angnew--; }
 
 
+if GoogleMobileAds_InterstitialStatus() != "Ready"
+{
+GoogleMobileAds_LoadInterstitial();
+}
+
 
 
 

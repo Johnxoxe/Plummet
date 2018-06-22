@@ -1,7 +1,7 @@
 
 // Spawners
 enemie_spawn_rate = 40;
-timer_spawn_rate = room_speed*3;
+timer_spawn_rate = room_speed*2;
 coin_spawn_rate = 80;
 
 // initialise temporary scores

@@ -1,1 +1,0 @@
-draw_sprite_ext(sContainer,0,global.cgvx+(global.cgvw*.5),global.cgvy+(global.cgvh*.5),3,3,0,image_blend,1);

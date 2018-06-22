@@ -12,6 +12,8 @@ x -= device_get_tilt_x() * speed_;
 if (room != room01){
 	if (x < 0-width){ x = room_width+width }
 	else if (x > room_width+width) { x = 0 - width }
+
+
 } else if ( room = room01){
 	
 	// cap in the room
