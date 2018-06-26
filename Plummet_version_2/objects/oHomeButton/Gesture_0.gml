@@ -10,3 +10,4 @@ if ( master_control.times_played = 5  ){
 
 }
 room_goto(room0);
+if (achievement_available()) achievement_post_score("CgkIs9b-1YAWEAIQBQ", master_control.h_score);

@@ -13,7 +13,8 @@
         "ed47d74f-c666-4811-a134-83d0123b78a1",
         "18e047b4-dd54-477b-a457-f7bace50e1a8",
         "24d4b15b-b976-47b3-a28f-80c28b30d70e",
-        "484fea9a-955b-44ce-ad64-f0d76b457c23"
+        "484fea9a-955b-44ce-ad64-f0d76b457c23",
+        "0f56f245-0813-46e4-8edc-dda380307b7c"
     ],
     "filterType": "GMSprite",
     "folderName": "Lobby",

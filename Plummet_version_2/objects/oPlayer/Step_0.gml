@@ -9,10 +9,11 @@ x -= device_get_tilt_x() * speed_;
 
 
 /// Warp if not in game 
-if (room != room01){
+if (room = room0){
+	x = 353;
+} else if (room = rDeath){
 	if (x < 0-width){ x = room_width+width }
 	else if (x > room_width+width) { x = 0 - width }
-
 
 } else if ( room = room01){
 	
@@ -21,19 +22,19 @@ if (room != room01){
 	else if ( x > room_width-width ){ x = room_width-width}
 	
 	// Cap the camera
-	var cap = 45;
+	var cap = 50;
 	if (angnew >= cap ) { angnew = cap; }
 	if (angnew <= -cap ) { angnew = -cap; }
 	
 	// tha angle formula
-	angnew = lerp(angnew, -(device_get_tilt_x() * 80), .07);
+	angnew = lerp(angnew, -(device_get_tilt_x() * 85), .07);
  
 	//change tha angle 
 	camera_set_view_angle(view_camera[0], angnew);
 	
 } else if ( room = rShop){
-	if (x < 0-width){ x = (room_width*.7)+width }
-	else if (x > (room_width*.7)+width) { x = 0 - width }
+	if (x < 110){ x = 110 }
+	else if (x > 330) { x = 330 }
 }
 
 
