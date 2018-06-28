@@ -4,7 +4,6 @@ if file_exists("saveData.ini"){
 
 ini_open("saveData.ini");
 h_score = ini_read_real("Variables","h_score",0);
-h_adre = ini_read_real("Variables","h_adre",0);
 money = ini_read_real("Variables","money",0);
 ads_money = ini_read_real("Variables","ads_money",0);
 current_item = ini_read_string("Variables","current_item",string(sPlayer));
@@ -12,6 +11,7 @@ music = ini_read_real("Variables","music",1);
 fx = ini_read_real("Variables","sound",1);
 ads = ini_read_real("Variables","ads",true);
 times_played = ini_read_real("Variables","times_played",0);
+set = ini_read_real("Variables","times_played",0);
 
 
 // Normal Skins 
@@ -36,5 +36,11 @@ specialSkin3 = ini_read_real("Variables","specialSkin3",0);
 specialSkin4 = ini_read_real("Variables","specialSkin4",0);
 specialSkin5 = ini_read_real("Variables","specialSkin5",0);
 specialSkin6 = ini_read_real("Variables","specialSkin6",0);
+
+
+//Theme sets
+theme1 = ini_read_real("Variables","theme1",0);
+theme2 = ini_read_real("Variables","theme2",0);
+theme3 = ini_read_real("Variables","theme3",0);
 
 ini_close();

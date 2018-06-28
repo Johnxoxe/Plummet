@@ -7,7 +7,8 @@ randomize();
 
 scrIniVariables();
 scrIniIAP();
-scrIniAds()
+scrIniAds();
+scrSetTheme(set);
 
 
 view_set_hport(view_camera[0],window_get_height());

@@ -33,7 +33,7 @@ if (room = room0){
 	camera_set_view_angle(view_camera[0], angnew);
 	
 } else if ( room = rShop){
-	if (x < 110){ x = 110 }
+	if (x < 140){ x = 140 }
 	else if (x > 330) { x = 330 }
 }
 

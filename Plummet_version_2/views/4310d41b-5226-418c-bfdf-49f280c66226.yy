@@ -11,7 +11,9 @@
         "e4480139-449c-47e2-8ce7-4549b4122b6a",
         "1c010507-e1d5-4f67-91a1-a7f31b1a2203",
         "9b435b2c-b588-4555-9592-c7c9c7d5ec0c",
-        "b2262cd8-5d90-4c85-b5fe-2250274accd4"
+        "b2262cd8-5d90-4c85-b5fe-2250274accd4",
+        "b6140b93-12f2-4ec6-ba1b-a949616057c9",
+        "d3660635-6fe7-4a22-bf8d-b3730b935a0b"
     ],
     "filterType": "GMSprite",
     "folderName": "Shop",
