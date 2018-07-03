@@ -18,3 +18,17 @@ GoogleMobileAds_LoadInterstitial();
 
 
 
+if (keyboard_check_pressed(vk_backspace)){
+	if (room = room0){
+		game_end();
+	} else if ( room = rShopBack ){
+		room_goto(rShop);
+	} else if ( room = rShop ){
+		room_goto(room0);
+	} else if (room = rDeath){
+		room_goto(room0); 
+	}
+}
+
+
+
