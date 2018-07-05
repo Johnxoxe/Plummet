@@ -2,7 +2,7 @@ if (x > xstart)
 {
 	x = xstart;	
 }
-else if (x < xstart -800)
+else if (x < xstart -rl)
 {
-	x = xstart - 800;	
+	x = xstart - rl;	
 }

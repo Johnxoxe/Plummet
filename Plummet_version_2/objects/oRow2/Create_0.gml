@@ -23,7 +23,8 @@ drag_offsetX = 0;
 drag = false;
 
 
-
+//Row Limit
+rl = 280;
 
 
 

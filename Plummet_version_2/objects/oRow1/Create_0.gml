@@ -22,8 +22,8 @@ y = dsph*.22;
 drag_offsetX = 0;
 drag = false;
 
-
-
+// Row limit 
+rl = 430;
 
 
 
