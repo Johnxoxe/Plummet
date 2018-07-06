@@ -6,7 +6,7 @@ if file_exists("iap_data.json")
       {
       if os_type == os_macosx
          {
-         var product = "catchthehaggis_mac_noads";
+         var product = "remove_mac_ads";
          }
       else
          {
@@ -28,15 +28,42 @@ if map_create
    global.purchaseMap = ds_map_create();
    if os_type == os_macosx
       {
-      var product1 = "catchthehaggis_mac_noads";
-      var product2 = "catchthehaggis_mac_gold";
+      var product1 = "remove_mac_ads";
       }
    else
       {
-      var product1 = "catchthehaggis_noads";
-      var product2 = "catchthehaggis_gold";
+      var product1 = "remve_ads";
       }
    ds_map_add(global.purchaseMap, product1, 0);
-   ds_map_add(global.purchaseMap, product2, 0);
    ds_map_secure_save(global.purchaseMap, "iap_data.json");
+}
+
+
+var pNoAds = ds_map_create();
+var productList = ds_list_create();
+if os_type == os_macosx
+   {
+   ds_map_add(pNoAds, "id", "remove_mac_ads");
    }
+else ds_map_add(pNoAds, "id", "remove_ads");
+ds_map_add(pNoAds, "title", "No Ads");
+ds_map_add(pNoAds, "type", "Durable");
+
+//Consumable
+//pGold = ds_map_create();
+//if os_type == os_macosx
+//   {
+//   ds_map_add(pGold, "id", "catchthehaggis_mac_gold");
+//   }
+//else ds_map_add(pGold, "id", "catchthehaggis_gold");
+//ds_map_add(pGold, "title", "1000 Gold!");
+//ds_map_add(pGold, "type", "Consumable");
+
+
+
+ds_list_add(productList, pNoAds);
+//ds_list_add(productList, pGold);
+iap_activate(productList);
+ds_map_destroy(pNoAds);
+//ds_map_destroy(pGold);
+ds_list_destroy(productList);

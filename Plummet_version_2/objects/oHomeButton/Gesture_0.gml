@@ -2,12 +2,13 @@
 // You can write your code in this editor
 
 if ( master_control.times_played = 5  ){
-	
-	if GoogleMobileAds_InterstitialStatus() == "Ready"
+	if (master_control.ads = true){
+		if GoogleMobileAds_InterstitialStatus() == "Ready"
 		{
-		GoogleMobileAds_ShowInterstitial()
+			GoogleMobileAds_ShowInterstitial()
 		}	
+	}
 
 }
 room_goto(room0);
-if (achievement_available()) achievement_post_score("CgkIs9b-1YAWEAIQBQ", master_control.h_score);
+

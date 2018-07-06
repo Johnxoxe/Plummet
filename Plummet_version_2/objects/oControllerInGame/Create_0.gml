@@ -7,7 +7,8 @@ coin_spawn_rate = 80;
 // initialise temporary scores
 score_ = 0;
 coin_ = 0;
-time_ = 15;
+time_ = 25;
+thrillSeeker = 0;
 
 
 //Initialize the scale for the score 

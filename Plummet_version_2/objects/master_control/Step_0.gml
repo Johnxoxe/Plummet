@@ -10,10 +10,7 @@ if ( right ) { angnew++; }
 if ( left ) { angnew--; }
 
 
-if GoogleMobileAds_InterstitialStatus() != "Ready"
-{
-GoogleMobileAds_LoadInterstitial();
-}
+
 
 
 
@@ -29,6 +26,24 @@ if (keyboard_check_pressed(vk_backspace)){
 		room_goto(room0); 
 	}
 }
+
+if (money >= 400){
+	///Collector
+	if achievement_available(){ 
+		achievement_post("CgkIs9b-1YAWEAIQAA", 100);
+		 
+		}
+		textureSkin1 = 1;
+}
+if (achiev3 >= 5){
+	///Never Quit
+	if achievement_available(){ 
+		achievement_post("CgkIs9b-1YAWEAIQAg", 100);
+		 
+		}
+		textureSkin3 = 1;
+}
+
 
 
 

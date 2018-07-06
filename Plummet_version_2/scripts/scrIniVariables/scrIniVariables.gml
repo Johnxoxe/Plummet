@@ -4,7 +4,7 @@ if file_exists("saveData.ini"){
 
 ini_open("saveData.ini");
 h_score = ini_read_real("Variables","h_score",0);
-money = ini_read_real("Variables","money",2000);
+money = ini_read_real("Variables","money",390);
 ads_money = ini_read_real("Variables","ads_money",2000);
 current_item = ini_read_string("Variables","current_item",string(sPlayer));
 music = ini_read_real("Variables","music",1);
@@ -44,7 +44,7 @@ theme3 = ini_read_real("Variables","theme3",0);
 ////Achievments unlocked 
 //achiev1 = ini_read_real("Variables","achiev1",0);
 //achiev2 = ini_read_real("Variables","achiev2",0);
-//achiev3 = ini_read_real("Variables","achiev3",0);
+achiev3 = ini_read_real("Variables","achiev3",0);
 //achiev4 = ini_read_real("Variables","achiev4",0);
 //achiev5 = ini_read_real("Variables","achiev5",0);
 

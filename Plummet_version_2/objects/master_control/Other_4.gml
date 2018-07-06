@@ -4,3 +4,9 @@ scrSetTheme(set);
 if (instance_exists(oPlayer)){
 	oPlayer.sprite_index = current_item;
 }
+
+if GoogleMobileAds_InterstitialStatus() != "Ready"
+{
+	GoogleMobileAds_LoadInterstitial();
+}
+achievement_login();
