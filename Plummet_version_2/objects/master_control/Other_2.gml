@@ -6,14 +6,14 @@ randomize();
 //var realTime = date_inc_minute(date_current_datetime(), 1);
 
 scrIniVariables();
-scrIniIAP();
-
-
 scrIniAds();
-
-
 scrSetTheme(set);
 scrIniServices();
+scrIniIAP2();
+
+
+
+
 
 view_set_hport(view_camera[0],window_get_height());
 view_set_wport(view_camera[0],window_get_width());

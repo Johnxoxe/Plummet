@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if iap_status() == iap_status_available
+
+
+/// -----------Version 1-------------
+/*if iap_status() == iap_status_available
    {
    if os_type == os_macosx
       {
@@ -19,4 +22,12 @@ if iap_status() == iap_status_available
 else
    {
    show_message_async("Store is not available.");
-   }
+   }*/
+
+if iap_status() == iap_status_available{
+	iap_acquire("remove_ads","");
+	master_control.ads = false; 
+	iap_consume("remove_ads");
+} else {
+	show_message_async("Store not available");
+}

@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+master_control.times = 0; 
+
 
 if ( master_control.times_played = 5  ){
 	if (master_control.ads = true){
@@ -11,4 +13,6 @@ if ( master_control.times_played = 5  ){
 
 }
 room_goto(room0);
+
+
 

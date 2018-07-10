@@ -9,8 +9,10 @@ x -= device_get_tilt_x() * speed_;
 
 
 /// Warp if not in game 
-if (room = room0){
+if (room = room0){ /// Lobby 
 	x = 353;
+	image_index = 0; 
+	
 } else if (room = rDeath){
 	if (x < 0-width){ x = room_width+width }
 	else if (x > room_width+width) { x = 0 - width }
