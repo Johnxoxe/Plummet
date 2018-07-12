@@ -12,3 +12,5 @@ if (y < (pos+30)){
 } else {
 	inPlace = false;
 }
+if (image_index = 0){ master_control.music = true; }
+else { master_control.music = false;}

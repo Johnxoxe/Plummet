@@ -17,7 +17,7 @@ if ( left ) { angnew--; }
 
 if (keyboard_check_pressed(vk_backspace)){
 	if (room = room0){
-		game_end();
+		show_question_async("Do you want to exit the game"){ game_end(); }
 	} else if ( room = rShopBack ){
 		room_goto(rShop);
 	} else if ( room = rShop ){
@@ -27,15 +27,16 @@ if (keyboard_check_pressed(vk_backspace)){
 	}
 }
 
-if (money >= 400){
+if (money >= 400 and achiev3 = 0){
 	///Collector
 	if achievement_available(){ 
 		achievement_post("CgkIs9b-1YAWEAIQAA", 100);
+		achiev3 = 1;
 		 
 		}
 		textureSkin1 = 1;
 }
-if (achiev3 >= 5){
+if (achiev2 >= 5){
 	///Never Quit
 	if achievement_available(){ 
 		achievement_post("CgkIs9b-1YAWEAIQAg", 100);

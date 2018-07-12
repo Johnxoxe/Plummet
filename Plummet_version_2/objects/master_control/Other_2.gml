@@ -6,10 +6,15 @@ randomize();
 //var realTime = date_inc_minute(date_current_datetime(), 1);
 
 scrIniVariables();
+
+
 scrIniAds();
+scrIniIAP2();
+
+
 scrSetTheme(set);
 scrIniServices();
-scrIniIAP2();
+
 
 
 

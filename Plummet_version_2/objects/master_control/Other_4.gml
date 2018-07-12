@@ -5,8 +5,17 @@ if (instance_exists(oPlayer)){
 	oPlayer.sprite_index = current_item;
 }
 
-if GoogleMobileAds_InterstitialStatus() != "Ready"
-{
+
+
+
+if os_is_network_connected()
+   {
+	achievement_login();
+	
+	if GoogleMobileAds_InterstitialStatus() != "Ready"
+	{
 	GoogleMobileAds_LoadInterstitial();
-}
-achievement_login();
+	}
+   }
+   scrSave();
+

@@ -9,7 +9,8 @@ switch (is) {
 				if ( master_control.money >= ns1 ){
 					master_control.money -=ns1;
 					master_control.normalSkin1 = 1; 
-				}
+					if (master_control.music = true) { audio_play_sound(sndPurchase,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } } 
 			}
         break;
 		case 2: // Normal Skin 2 
@@ -17,7 +18,8 @@ switch (is) {
 				if ( master_control.money >= ns2 ){
 					master_control.money -=ns2;
 					master_control.normalSkin2 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndPurchase,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 3: // Normal Skin 3
@@ -25,7 +27,8 @@ switch (is) {
 				if ( master_control.money >= ns3 ){
 					master_control.money -=ns3;
 					master_control.normalSkin3 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndPurchase,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 4: // Normal Skin 4
@@ -33,7 +36,8 @@ switch (is) {
 				if ( master_control.money >= ns4 ){
 					master_control.money -=ns4;
 					master_control.normalSkin4 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndPurchase,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 5: // Normal Skin 5
@@ -41,7 +45,8 @@ switch (is) {
 				if ( master_control.money >= ns5 ){
 					master_control.money -=ns5;
 					master_control.normalSkin5 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndPurchase,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 6: // Texture Skin 1
@@ -74,7 +79,8 @@ switch (is) {
 				if ( master_control.ads_money >= ss1 ){
 					master_control.ads_money -=ss1;
 					master_control.specialSkin1 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndDiamond,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 12: // Special Skin 2
@@ -82,7 +88,8 @@ switch (is) {
 				if ( master_control.ads_money >= ss2 ){
 					master_control.ads_money -=ss2;
 					master_control.specialSkin2 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndDiamond,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 13: // Special Skin 3
@@ -90,7 +97,8 @@ switch (is) {
 				if ( master_control.ads_money >= ss3 ){
 					master_control.ads_money -=ss3;
 					master_control.specialSkin3 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndDiamond,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 14: // Special Skin 4
@@ -98,7 +106,8 @@ switch (is) {
 				if ( master_control.ads_money >= ss4 ){
 					master_control.ads_money -=ss4;
 					master_control.specialSkin4 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndDiamond,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 15: // Special Skin 5
@@ -106,7 +115,8 @@ switch (is) {
 				if ( master_control.ads_money >= ss5){
 					master_control.ads_money -=ss5;
 					master_control.specialSkin5 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndDiamond,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
 		case 16: // Special Skin 6
@@ -114,7 +124,8 @@ switch (is) {
 				if ( master_control.ads_money >= ss6 ){
 					master_control.ads_money -=ss6;
 					master_control.specialSkin6 = 1; 
-				}
+				if (master_control.music = true) { audio_play_sound(sndDiamond,1,false); }
+				} else { if (master_control.music = true) { audio_play_sound(sndLocked,1,false); } }
 			}
         break;
     default:

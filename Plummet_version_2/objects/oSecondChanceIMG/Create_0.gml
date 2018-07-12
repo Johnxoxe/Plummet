@@ -2,6 +2,6 @@
 // You can write your code in this editor
 increase = true;
 amount = 0; 
-if (master_control.times = 2){
+if (oSecondChance.sprite_index = sLose){
 	visible = false;
 }
