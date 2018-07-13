@@ -26,9 +26,13 @@ else
 if (inPlace = true){
 	if iap_status() == iap_status_available{
 		iap_acquire("remove_ads","");
-		master_control.ads = false; 
 		iap_consume("remove_ads");
+		//if iap_status() == iap_purchased{
+		//	master_control.ads = false; 
+		//	GoogleMobileAds_RemoveBanner();
+		//}
 	} else {
 		show_message_async("Store not available");
 	}
 }
+

@@ -1,8 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-if GoogleMobileAds_InterstitialStatus() == "Ready"
+if ((GoogleMobileAds_InterstitialStatus() == "Ready") and (image_index = 0))
 {
-GoogleMobileAds_ShowInterstitial();
-master_control.ads_money += 50; 
+	GoogleMobileAds_ShowInterstitial();
+	master_control.ads_money += 50;
 }

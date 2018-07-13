@@ -10,8 +10,10 @@ if (instance_exists(oPlayer)){
 
 if os_is_network_connected()
    {
-	achievement_login();
-	
+	   if (GooglePlayServices_Status() != GooglePlayServices_SUCCESS and triesToLogIn <= 3){
+			achievement_login();
+			triesToLogIn++; 
+	   }
 	if GoogleMobileAds_InterstitialStatus() != "Ready"
 	{
 	GoogleMobileAds_LoadInterstitial();
