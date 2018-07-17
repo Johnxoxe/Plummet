@@ -1,11 +1,11 @@
-if file_exists("saveData.ini"){
-	file_delete("saveData.ini");
-}
+//if file_exists("saveData.ini"){
+//	file_delete("saveData.ini");
+//}
 
 ini_open("saveData.ini");
 h_score			= ini_read_real("Variables","h_score",0);
-money			= ini_read_real("Variables","money",5000);
-ads_money		= ini_read_real("Variables","ads_money",5000);
+money			= ini_read_real("Variables","money",0);
+ads_money		= ini_read_real("Variables","ads_money",0);
 current_item	= ini_read_string("Variables","current_item",string(sPlayer));
 music			= ini_read_real("Variables","music", true);
 fx				= ini_read_real("Variables","sound",true);

@@ -5,7 +5,9 @@ if (instance_exists(oPlayer)){
 	oPlayer.sprite_index = current_item;
 }
 
-
+if (ads !=true){
+	GoogleMobileAds_RemoveBanner();
+	}
 
 
 if os_is_network_connected()
@@ -19,5 +21,6 @@ if os_is_network_connected()
 	GoogleMobileAds_LoadInterstitial();
 	}
    }
-   scrSave();
+   
+
 

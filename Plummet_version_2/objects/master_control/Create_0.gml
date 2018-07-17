@@ -6,3 +6,7 @@ nhs = false;
 triesToLogIn = 0;
 //angle needs to be initialzed 
 angnew = 0;
+
+scrIniVariables();
+
+scrSetTheme(set);

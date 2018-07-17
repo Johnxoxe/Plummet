@@ -12,7 +12,7 @@
     "androidProps": true,
     "androidactivityinject": "",
     "androidclassname": "GooglePlayServicesExtension",
-    "androidinject": "<meta-data android:name=\"com.google.android.gms.version\"  android:value=\"9683000\"  tools:replace=\"android:value\" \/>\\u000d\\u000a\\u000d\\u000a\\u000d\\u000a<activity android:name=\"com.google.android.gms.ads.AdActivity\" android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" \/>",
+    "androidinject": "<meta-data android:name=\"com.google.android.gms.version\"  android:value=\"9683000\"  tools:replace=\"android:value\" \/>\\u000a\\u000d\\u000a\\u000d\\u000a\\u000d<activity android:name=\"com.google.android.gms.ads.AdActivity\" android:configChanges=\"keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize\" \/>",
     "androidmanifestinject": "",
     "androidsourcedir": "",
     "author": "",
@@ -310,6 +310,14 @@
                     "constantName": "GooglePlayServices_SERVICE_INVALID",
                     "hidden": false,
                     "value": "9"
+                },
+                {
+                    "id": "2860413d-210e-47c6-836a-f476f788556c",
+                    "modelName": "GMExtensionConstant",
+                    "mvc": "1.0",
+                    "constantName": "GoogleMobileAds_Smart_Banner",
+                    "hidden": false,
+                    "value": "6"
                 }
             ],
             "copyToTargets": 2097160,
@@ -350,13 +358,14 @@
             "init": "",
             "kind": 4,
             "order": [
-                
+                "d090ba18-7a1f-4cff-a7b9-13581e7cc026",
+                "571fe44d-0ea1-4682-bec1-b7a3297e47b5"
             ],
             "origname": "extensions\\GooglePlayServicesExtension.ext",
             "uncompress": false
         }
     ],
-    "gradleinject": " compile 'com.google.android.gms:play-services-games:9.6.1'\\u000d\\u000a compile 'com.google.android.gms:play-services-ads:9.6.1'\\u000d\\u000a compile 'com.google.android.gms:play-services-plus:9.6.1'\\u000d\\u000a compile 'com.google.android.gms:play-services-gcm:9.6.1'",
+    "gradleinject": " compile 'com.google.android.gms:play-services-games:9.6.1'\\u000a\\u000d compile 'com.google.android.gms:play-services-ads:9.6.1'\\u000a\\u000d compile 'com.google.android.gms:play-services-plus:9.6.1'\\u000a\\u000d compile 'com.google.android.gms:play-services-gcm:9.6.1'",
     "helpfile": "",
     "installdir": "",
     "iosProps": true,
@@ -420,7 +429,7 @@
             "weakReference": false
         }
     ],
-    "iosplistinject": "<key>NSAppTransportSecurity<\/key>\\u000d\\u000a<dict>\\u000d\\u000a    <key>NSAllowsArbitraryLoads<\/key>\\u000d\\u000a    <true\/>\\u000d\\u000a    <key>NSAllowsArbitraryLoadsForMedia<\/key>\\u000d\\u000a    <true\/>\\u000d\\u000a    <key>NSAllowsArbitraryLoadsInWebContent<\/key>\\u000d\\u000a    <true\/>\\u000d\\u000a<\/dict>",
+    "iosplistinject": "<key>NSAppTransportSecurity<\/key>\\u000a\\u000d<dict>\\u000a\\u000d    <key>NSAllowsArbitraryLoads<\/key>\\u000a\\u000d    <true\/>\\u000a\\u000d    <key>NSAllowsArbitraryLoadsForMedia<\/key>\\u000a\\u000d    <true\/>\\u000a\\u000d    <key>NSAllowsArbitraryLoadsInWebContent<\/key>\\u000a\\u000d    <true\/>\\u000a\\u000d<\/dict>",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",

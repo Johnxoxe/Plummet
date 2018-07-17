@@ -15,7 +15,7 @@
     "androidProps": true,
     "androidactivityinject": "",
     "androidclassname": "MoPubExt",
-    "androidinject": "<activity\\u000d\\u000a            android:name=\"com.mopub.mobileads.MoPubActivity\"\\u000d\\u000a            android:configChanges=\"keyboardHidden|orientation|screenSize\"\\u000d\\u000a\/>\\u000d\\u000a\\u000d\\u000a<activity\\u000d\\u000a            android:name=\"com.mopub.mobileads.MraidActivity\"\\u000d\\u000a            android:configChanges=\"keyboardHidden|orientation|screenSize\"\\u000d\\u000a\/>\\u000d\\u000a\\u000d\\u000a<activity\\u000d\\u000a            android:name=\"com.mopub.common.MoPubBrowser\"\\u000d\\u000a            android:configChanges=\"keyboardHidden|orientation|screenSize\"\\u000d\\u000a\/>\\u000d\\u000a  <activity           android:name=\"com.mopub.mobileads.MraidVideoPlayerActivity\"\\u000d\\u000a            android:configChanges=\"keyboardHidden|orientation|screenSize\" \/>",
+    "androidinject": "<activity\\u000a\\u000d            android:name=\"com.mopub.mobileads.MoPubActivity\"\\u000a\\u000d            android:configChanges=\"keyboardHidden|orientation|screenSize\"\\u000a\\u000d\/>\\u000a\\u000d\\u000a\\u000d<activity\\u000a\\u000d            android:name=\"com.mopub.mobileads.MraidActivity\"\\u000a\\u000d            android:configChanges=\"keyboardHidden|orientation|screenSize\"\\u000a\\u000d\/>\\u000a\\u000d\\u000a\\u000d<activity\\u000a\\u000d            android:name=\"com.mopub.common.MoPubBrowser\"\\u000a\\u000d            android:configChanges=\"keyboardHidden|orientation|screenSize\"\\u000a\\u000d\/>\\u000a\\u000d  <activity           android:name=\"com.mopub.mobileads.MraidVideoPlayerActivity\"\\u000a\\u000d            android:configChanges=\"keyboardHidden|orientation|screenSize\" \/>",
     "androidmanifestinject": "",
     "androidsourcedir": "",
     "author": "",
@@ -211,13 +211,23 @@
             "init": "",
             "kind": 4,
             "order": [
-                
+                "aa9ae765-3d88-4c5a-8152-fbef93738076",
+                "804dcec2-eec9-4459-a132-3374aaa80d59",
+                "93d8e6de-1612-4ff2-bfc0-1752396df1b2",
+                "da73d67b-fcfa-4c8c-8a55-2593c3f86dff",
+                "fd0df885-aff1-47c6-8324-36b71c80224b",
+                "bd3ecfb0-4744-4d5e-8d66-45f10857b23b",
+                "82e2535f-9f5b-429f-adbc-86bcc0eec5d6",
+                "03d4a660-b588-40c8-9e2f-58d823a28b1c",
+                "29ee2c12-748a-41f0-be53-b65d3a4404c2",
+                "1f09a949-09d0-4e26-93a5-ddec1da998a2",
+                "a8f46fbe-8c0f-41cb-80bc-6c0816a5f90f"
             ],
             "origname": "extensions\\MoPubiOS.ext",
             "uncompress": false
         }
     ],
-    "gradleinject": "compile('com.mopub:mopub-sdk:4.7.0@aar') {\\u000d\\u000a            transitive = true\\u000d\\u000a        }",
+    "gradleinject": "compile('com.mopub:mopub-sdk:4.7.0@aar') {\\u000a\\u000d            transitive = true\\u000a\\u000d        }",
     "helpfile": "",
     "installdir": "",
     "iosProps": true,
@@ -345,7 +355,7 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
-    "iosplistinject": "<key>NSCalendarsUsageDescription<\/key>\\u000d\\u000a<string>Some ad content may access calendar<\/string>\\u000d\\u000a<key>NSAppTransportSecurity<\/key>\\u000d\\u000a    <dict>\\u000d\\u000a        <key>NSAllowsArbitraryLoads<\/key>\\u000d\\u000a        <true\/>\\u000d\\u000a        <key>NSAllowsArbitraryLoadsForMedia<\/key>\\u000d\\u000a        <true\/>\\u000d\\u000a        <key>NSAllowsArbitraryLoadsInWebContent<\/key>\\u000d\\u000a        <true\/>\\u000d\\u000a    <\/dict>",
+    "iosplistinject": "<key>NSCalendarsUsageDescription<\/key>\\u000a\\u000d<string>Some ad content may access calendar<\/string>\\u000a\\u000d<key>NSAppTransportSecurity<\/key>\\u000a\\u000d    <dict>\\u000a\\u000d        <key>NSAllowsArbitraryLoads<\/key>\\u000a\\u000d        <true\/>\\u000a\\u000d        <key>NSAllowsArbitraryLoadsForMedia<\/key>\\u000a\\u000d        <true\/>\\u000a\\u000d        <key>NSAllowsArbitraryLoadsInWebContent<\/key>\\u000a\\u000d        <true\/>\\u000a\\u000d    <\/dict>",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "-fobjc-arc",
     "maclinkerflags": "",
