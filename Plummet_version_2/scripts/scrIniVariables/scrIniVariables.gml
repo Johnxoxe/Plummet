@@ -2,7 +2,7 @@
 //	file_delete("saveData.ini");
 //}
 
-ini_open("saveData.ini");
+ini_open("saveData2.ini");
 h_score			= ini_read_real("Variables","h_score",0);
 money			= ini_read_real("Variables","money",0);
 ads_money		= ini_read_real("Variables","ads_money",0);

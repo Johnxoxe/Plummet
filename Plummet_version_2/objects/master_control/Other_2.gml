@@ -12,8 +12,9 @@ scrIniAds();
 scrIniIAP2();
 
 
-scrSetTheme(set);
+
 scrIniServices();
+scrSetTheme(set);
 
 
 

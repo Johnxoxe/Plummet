@@ -12,7 +12,7 @@ if (ads !=true){
 
 if os_is_network_connected()
    {
-	   if (GooglePlayServices_Status() != GooglePlayServices_SUCCESS and triesToLogIn <= 3){
+	   if (triesToLogIn <= 3){
 			achievement_login();
 			triesToLogIn++; 
 	   }
