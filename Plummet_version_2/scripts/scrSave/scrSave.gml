@@ -1,4 +1,4 @@
-ini_open("saveData2.ini");
+ini_open("saveData3.ini");
 ini_write_real("Variables","h_score",h_score);
 ini_write_real("Variables","money",money);
 ini_write_real("Variables","ads_money",ads_money);

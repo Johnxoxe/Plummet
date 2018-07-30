@@ -29,19 +29,25 @@ if (keyboard_check_pressed(vk_backspace)){
 
 if (money >= 400 and achiev3 = 0){
 	///Collector
-	if achievement_available(){ 
-		achievement_post("CgkIs9b-1YAWEAIQAA", 100);
-		achiev3 = 1;
+	if (os_type = os_android){
+		if achievement_available(){ 
+			achievement_post("CgkIs9b-1YAWEAIQAA", 100);
+			achiev3 = 1;
 		 
-		}
+			}
+	} 
+		
 		textureSkin1 = 1;
 }
 if (achiev2 >= 5){
 	///Never Quit
-	if achievement_available(){ 
-		achievement_post("CgkIs9b-1YAWEAIQAg", 100);
-		 
-		}
+	if (os_type = os_android){
+		if achievement_available(){ 
+			achievement_post("CgkIs9b-1YAWEAIQAg", 100);
+			 
+			}
+		}  
+	
 		textureSkin3 = 1;
 }
 

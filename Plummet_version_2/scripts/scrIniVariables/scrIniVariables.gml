@@ -1,8 +1,8 @@
-//if file_exists("saveData.ini"){
-//	file_delete("saveData.ini");
+//if file_exists("saveData3.ini"){
+//	file_delete("saveData3.ini");
 //}
 
-ini_open("saveData2.ini");
+ini_open("saveData3.ini");
 h_score			= ini_read_real("Variables","h_score",0);
 money			= ini_read_real("Variables","money",0);
 ads_money		= ini_read_real("Variables","ads_money",0);

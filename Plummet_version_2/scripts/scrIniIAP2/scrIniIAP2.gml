@@ -1,4 +1,4 @@
-var product, listproduct;
+/*var product, listproduct;
 
 product = ds_map_create();
 listproduct = ds_list_create();
