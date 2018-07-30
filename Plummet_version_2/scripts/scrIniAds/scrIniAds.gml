@@ -1,3 +1,4 @@
+
 //GoogleMobileAds_Init("ca-app-pub-3940256099942544/8691691433"); // Test
 GoogleMobileAds_Init("ca-app-pub-7573928502398857/6928812575");
 if (ads = true){
