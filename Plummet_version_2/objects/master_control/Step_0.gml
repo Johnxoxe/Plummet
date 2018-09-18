@@ -17,7 +17,7 @@ if ( left ) { angnew--; }
 
 if (keyboard_check_pressed(vk_backspace)){
 	if (room = room0){
-		show_question_async("Do you want to exit the game"){ game_end(); }
+		 game_end(); 
 	} else if ( room = rShopBack ){
 		room_goto(rShop);
 	} else if ( room = rShop ){
